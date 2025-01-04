@@ -1,0 +1,8 @@
+// importing json objects
+
+mongoimport "D:\web tech\mongodb\json samples\products.json" -d shop -c products
+
+
+// import array of objects
+
+mongoimport "D:\web tech\mongodb\json samples\sales.json" -d shop -c sales --jsonArray
